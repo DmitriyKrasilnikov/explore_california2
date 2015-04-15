@@ -54,7 +54,7 @@ a:link, a:visited {
 }
 a:hover, a:active {
   color: #cb7d21;
-  border-bottom: 1px solid #cb7d20;
+  border-bottom: 2px solid #cb7d20;
 }
 p + h1 {
   margin-top: 1em;
