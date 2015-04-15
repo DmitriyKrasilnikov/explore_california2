@@ -25,7 +25,7 @@ function enableMenus() {
 	});
 	} else {
 		menu.find('li').each(function() {
-         if ($(this).find('ul').length > 0 ) {
+         if ($(this).find('ul').length>0) {
          // strip any existing events
          $(this).unbind();
                };
