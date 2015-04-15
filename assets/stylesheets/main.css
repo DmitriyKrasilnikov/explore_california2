@@ -269,7 +269,7 @@ span.accent {
 }
 #siteNav li a.current, #siteNav li a.current:hover {
   color: #fff;
-  cursor: default;
+  cursor: pointer;
 }
 #siteNav li a:hover, #siteNav li a:active{
   color: #fff;
