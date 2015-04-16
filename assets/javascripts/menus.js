@@ -1,5 +1,4 @@
 // desktop version sliding menus
-
 //enable menu animation if the screen is set to desktop
 function enableMenus() {
 	//create shortcut for nav element
@@ -25,7 +24,7 @@ function enableMenus() {
 	});
 	} else {
 		menu.find('li').each(function() {
-         if ($(this).find('ul').length > 0 ) {
+         if ($(this).find('ul').length>0) {
          // strip any existing events
          $(this).unbind();
                };
